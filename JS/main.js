@@ -21,7 +21,6 @@ marks = 20;
 console.log(marks);
 
 const address = "Jhapa";
-address = "laxmipur";
 
 console.log(address);
 
@@ -47,23 +46,32 @@ console.log(studentName, Faculty, GPA, isPass);
 // object , key -> Value Pair
 const details = {
     name: "Samikshya Mishra",
-    GPA:3.78
-    isPass: true;
+    GPA:3.78,
+    isPass: true,
     address:{
         city: "Jhapa",
         province:"Koshi",
     },
-    phone : 98245345234,023-231378
+    phone : [98245345234, 123231378],
 };
 
-console.log(details);
+console.log(details["name"]);
+console.log(details.isPass);
 
 // Array: list
+// Array has index starting from 0(Zero)
 const grades=[3.78, 3.88,3.76];
 const test=[
     321, 
     "Samikshya", 
     true, 
     false, 
-    {class:Bachelor, Facuty:"BSC CSIT"},
-     [23,33, "mishra"]]
+    {class: 10,Faculty :"BSCCSIT"},
+    [23,33, "mishra"],
+    ];
+
+    console.log(test);
+    console.log(grades[2]);
+    console.log(test[1]);
+    console.log(test[5][0]);
+    console.log(test[4].Faculty)
