@@ -26,3 +26,44 @@ address = "laxmipur";
 console.log(address);
 
 // Note: NEVER USE var
+
+// Data Types
+/*
+ * 1. String "samikshya"
+ * 2. Number 50, 56.3
+ * 3. Boolean True, False
+ * 4. Object {key : value}
+ * 5. Array [12,43,53,13,32]
+ * 6. Null, undefined
+ */ 
+
+const studentName="Samikshya Mishra" //string
+const Faculty = "BSC CSIT" 
+const GPA = 3.78  //Number
+const isPass = true;  //Boolean
+
+console.log(studentName, Faculty, GPA, isPass);
+
+// object , key -> Value Pair
+const details = {
+    name: "Samikshya Mishra",
+    GPA:3.78
+    isPass: true;
+    address:{
+        city: "Jhapa",
+        province:"Koshi",
+    },
+    phone : 98245345234,023-231378
+};
+
+console.log(details);
+
+// Array: list
+const grades=[3.78, 3.88,3.76];
+const test=[
+    321, 
+    "Samikshya", 
+    true, 
+    false, 
+    {class:Bachelor, Facuty:"BSC CSIT"},
+     [23,33, "mishra"]]
