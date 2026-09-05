@@ -6,3 +6,14 @@
 - ECMA Script (ES6 2015) Standardization of JS
 - Node.JS, Electron.js, React Native, Tensorflow.js
 
+-----------------
+1. JS
+
+Backend
+2. Node
+3. Express
+4. MongoDB
+
+Frontend
+5. React
+6. Next.js
