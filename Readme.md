@@ -11,8 +11,8 @@
 - Print
 - Variables
 - Data Types
-------------------
 - Operators(arithmetic, logical, relational)
+------------------
 - Conditional Statement(if, else, switch)
 - Loop(for, while)
 - Function

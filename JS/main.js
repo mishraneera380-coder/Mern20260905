@@ -82,6 +82,7 @@ console.log('=============Operators==============');
  * 1. Arithmetic Operators : +, -, *, /, %
  * 2. Relational Operators: ==, !=, >, < , <=, >= ,===, !==
  * 3.Logical Operators: && (AND), ||(OR),!(NOT)
+ * 4. Ternary Operaotr: condition ? true: false
   */ 
 
 
