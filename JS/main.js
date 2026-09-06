@@ -75,3 +75,4 @@ const test=[
     console.log(test[1]);
     console.log(test[5][0]);
     console.log(test[4].Faculty)
+    
