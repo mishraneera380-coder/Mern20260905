@@ -68,11 +68,64 @@ const test=[
     false, 
     {class: 10,Faculty :"BSCCSIT"},
     [23,33, "mishra"],
-    ];
+];
+console.log(test);
+console.log(grades[2]);
+console.log(test[1]);
+console.log(test[5][0]);
+console.log(test[4].Faculty);
 
-    console.log(test);
-    console.log(grades[2]);
-    console.log(test[1]);
-    console.log(test[5][0]);
-    console.log(test[4].Faculty)
-    
+console.log('=============Operators==============');
+
+/**
+ * Operators
+ * 1. Arithmetic Operators : +, -, *, /, %
+ * 2. Relational Operators: ==, !=, >, < , <=, >= ,===, !==
+ * 3.Logical Operators: && (AND), ||(OR),!(NOT)
+  */ 
+
+
+//Arithmetic Operators
+console.log(5+6);
+console.log(15-6);
+console.log(12*3);
+console.log(12/6);
+console.log(18%5) //Remainder
+
+console.log(5+ "2"); // 52 (it occurs append)
+console.log(15- "8"); //9
+console.log("10" + "3"); //103
+
+//Relational operators
+console.log(10<5);
+console.log(10>5);
+console.log(10!=5);
+console.log(10 ==5);
+console.log(10<= 10);
+console.log(10>=11);
+console.log(10 === 11);
+console.log(10 !== 19);
+console.log(10 !== "10");
+console.log(10 === "10");
+
+//Logical Operators
+/*
+*AND : If any one input is false, then result is false
+* OR: If any one input is true, then result is true
+* NOT: If input is true, then result is false and vice-versa
+*/ 
+
+console.log("=========AND===========");
+console.log(true && false);
+
+console.log( true && true);
+
+
+console.log("=========OR===========");
+console.log(true || false);
+console.log( true|| true);
+console.log(false || false);
+
+console.log("=========NOT===========");
+console.log(!true);
+console.log(!false);
