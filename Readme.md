@@ -7,6 +7,19 @@
 - ECMA Script (ES6 2015) Standardization of JS
 - Node.JS, Electron.js, React Native, Tensorflow.js
 
+# JS course content
+- Print
+- Variables
+- Data Types
+------------------
+- Operators(arithmetic, logical, relational)
+- Conditional Statement(if, else, switch)
+- Loop(for, while)
+- Function
+- ExmaScript (Template literals, spread operator, destructuring, arrow function)
+- Array methods(map, reduce, sort, filter, find)
+- DOM manipulation
+
 -----------------
 -  JS
 
