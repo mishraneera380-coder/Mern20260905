@@ -4,6 +4,7 @@
 *   }
 */
 const age = 18;
+const gender ="F";
 if(age <=18){
     console.log("Is a minor.");
 }
@@ -32,5 +33,59 @@ else{
     console.log("Invalid age");
 }
 
-// switch statement
+/*Nested if-else statement*/
+
+if(age>=18){
+    if(gender == "F"){
+        console.log("Adult Female:");
+    }else{
+        console.log("Adult Male");
+    }
+    console.log("Adult");
+
+} else{
+    if(gender == "F"){
+        console.log("Children Female:");
+    }else{
+        console.log("Children Male");
+    }
+    console.log("Children");
+}
+
+/* switch statement*/
+const day = "Sunday";
+switch(day){
+    case "Sunday":
+        console.log("Sunday");
+        break;
+    case "Monday":
+        console.log("Monday");
+        //code
+        break;
+     case "Tuesday":
+        console.log("Tuesday");
+        //code
+        break;
+     case "Wednesday":
+        console.log("Wednesday");
+        //code
+        break;
+     case "Thursday":
+        console.log("Thursday");
+        //code
+        break;
+     case "Friday":
+        console.log("Friday");
+        //code
+        break;
+    case "Saturday":
+        console.log("Saturday");
+        //code
+        break;
+    default:
+        console.log("Invalid day");
+        //code
+        break;
+    
+}
 // ternary Operator
