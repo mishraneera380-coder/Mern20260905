@@ -88,4 +88,15 @@ switch(day){
         break;
     
 }
-// ternary Operator
+// ternary Operator: condition ? true : false */
+if(age >= 18){
+    console.log("Adult");
+}else{
+    console.log("Children");
+}
+age >= 18 ?  console.log("Adult") : console.log("Children");
+
+const ageGroup = age >= 20 ? "Adult":"Children";
+
+console.log(ageGroup);
+  

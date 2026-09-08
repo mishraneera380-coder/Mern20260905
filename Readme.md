@@ -12,8 +12,8 @@
 - Variables
 - Data Types
 - Operators(arithmetic, logical, relational)
+- Conditional Statement(if, else, switch, ternary Operator)
 ------------------
-- Conditional Statement(if, else, switch)
 - Loop(for, while)
 - Function
 - ExmaScript (Template literals, spread operator, destructuring, arrow function)
