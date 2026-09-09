@@ -13,8 +13,8 @@
 - Data Types
 - Operators(arithmetic, logical, relational)
 - Conditional Statement(if, else, switch, ternary Operator)
-------------------
 - Loop(for, while)
+------------------
 - Function
 - ExmaScript (Template literals, spread operator, destructuring, arrow function)
 - Array methods(map, reduce, sort, filter, find)
