@@ -18,3 +18,22 @@ console.log(result);
 const templateresult = `Myself ${name} and I'm ${age} years old. I live in ${address}.`
 
 console.log(templateresult);
+
+// Desturcturing
+
+const course = {
+    title: "MERN Stack",
+    duartion:" 3 months",
+    instructor: "Samikshya",
+    fee: 2500,
+};
+
+
+// const title = course.title;
+// const duartion  = course.duartion;
+// const fee = course.fee;
+
+// Object destructuring
+const{title, duartion, instructor ,fee} = course;
+console.log(course.title);
+console.log(course.fee);
