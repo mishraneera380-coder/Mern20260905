@@ -35,5 +35,12 @@ const course = {
 
 // Object destructuring
 const{title, duartion, instructor ,fee: fees} = course;
+
 console.log(course.title);
 console.log(fees);
+
+const students = ["Samikshya", "Sushil", "Hemanta", "Nirmala"];
+// Array destructuring
+const [std1, std2, std3, std4] = students;
+
+console.log( std2, std3, std4);
