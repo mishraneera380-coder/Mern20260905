@@ -44,3 +44,21 @@ const students = ["Samikshya", "Sushil", "Hemanta", "Nirmala"];
 const [std1, std2, std3, std4] = students;
 
 console.log( std2, std3, std4);
+
+// Spread Operator: To copy data: (......)
+
+const user = {
+    name:"Samikshya",
+    age : 18,
+    address:"Laxmipur",
+};
+
+const details = {
+    education: "B.Sc.CSIT",
+    skills: "MERN Stack",
+    experience: "1yrs+"
+};
+
+const userDetails = { ...user, ...details,};
+
+console.log(userDetails);
