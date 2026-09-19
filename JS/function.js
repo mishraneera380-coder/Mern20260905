@@ -39,13 +39,12 @@ const addedResult = sumReturn(34,65);
 square(addedResult)
 console.log(addedResult);
 
-
+// ==================================
 function myValue(val1, val2){
     const addedvalue = val1 + val2;
-
     const sqValue = addedvalue * addedvalue;
-
-    return sqValue;
+    return addedvalue;
+    
 }
 
 const addedval= myValue(2,5);
