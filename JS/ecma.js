@@ -34,6 +34,6 @@ const course = {
 // const fee = course.fee;
 
 // Object destructuring
-const{title, duartion, instructor ,fee} = course;
+const{title, duartion, instructor ,fee: fees} = course;
 console.log(course.title);
-console.log(course.fee);
+console.log(fees);
