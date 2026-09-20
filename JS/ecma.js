@@ -56,7 +56,7 @@ const user = {
 const details = {
     education: "B.Sc.CSIT", 
     skills: "MERN Stack",
-    experience: "1yrs+" 
+    experience: "1yrs+"  
 };
 
 const userDetails = { ...user, ...details,};
