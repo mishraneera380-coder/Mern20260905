@@ -60,7 +60,7 @@ const details = {
 };
 
 const userDetails = { ...user, ...details,};
-
+ 
 console.log(userDetails); 
  
 
