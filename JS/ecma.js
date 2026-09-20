@@ -50,7 +50,7 @@ console.log( std2, std3, std4);
 const user = {
     name:"Samikshya",
     age : 18,  
-    address:"Laxmipur",
+    address:"Laxmipur", 
 };
 
 const details = {
