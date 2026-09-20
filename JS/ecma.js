@@ -54,7 +54,7 @@ const user = {
 };
 
 const details = {
-    education: "B.Sc.CSIT",
+    education: "B.Sc.CSIT", 
     skills: "MERN Stack",
     experience: "1yrs+" 
 };
