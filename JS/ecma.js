@@ -51,7 +51,7 @@ const user = {
     name:"Samikshya",
     age : 18,  
     address:"Laxmipur",  
-}; 
+};  
 
 const details = {
     education: "B.Sc.CSIT", 
