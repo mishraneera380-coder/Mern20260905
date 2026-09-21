@@ -3,25 +3,36 @@ const list = [
 ];
 
 /**Double all the numbers in the list*/ 
-const dblList =[];
+// const dblList =[];
 
-for(let i=0; i< list.length; i++){
-    const dblvalue = list[i] * 2;
+// for(let i=0; i< list.length; i++){
+//     const dblvalue = list[i] * 2;
 
-    dblList.push(dblvalue);
-}
+//     dblList.push(dblvalue);
+// }
 
-console.log(dblList);
+// console.log(dblList);
 
 
 
-/**Double all the numbers in the list*/
+// /**Double all the numbers in the list*/
 
-const dblList = [];
-for(let i = 0; i< list.length; i++){
-    const dblvalue = list[i] *3;
+// const dblList = [];
+// for(let i = 0; i< list.length; i++){
+//     const dblvalue = list[i] *3;
 
-    dblList.push(dblvalue);
-}
+//     dblList.push(dblvalue);
+// }
 
-console.log(dblList);
+// console.log(dblList);
+
+/***Map: array.map()*/
+
+ const dblMapList = list.map( function(item, index){
+    const dblvalue = item *2;
+
+    return;
+});
+
+console.log('================MAP==============');
+console.log(dblMapList);
