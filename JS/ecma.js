@@ -62,5 +62,14 @@ const details = {
 const userDetails = { ...user, ...details,};
  
 console.log(userDetails); 
- 
+
+Arrow function
+
+const sum = (value1, value2) => {
+    console.log(value1 +value2);   
+};
+
+sum(8,12);
+sum(12,6);
+
 
