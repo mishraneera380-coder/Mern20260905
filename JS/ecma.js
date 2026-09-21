@@ -71,13 +71,24 @@ console.log(userDetails);
 
 // Arrow function
 
-const sum = (value1, value2) => {
-    console.log(value1 +value2);
+// const sum = (value1, value2) => {
+//     console.log(value1 +value2);
     
-    return result;
-};
+//     return result;
+// };
 
-const sumResult = sum(8,9);
+// const sumResult = sum(8,9);
+// console.log(sumResult);
+
+// const sum = (value1, varlue2) =>{
+//     return value1 + varlue2;
+// };
+
+// const sumResult = sum(8,12);
+// console.log(sumResult);
+
+
+const sum = (valll1, valll2)=> valll1+ valll2;
+
+const sumResult = sum(4,5);
 console.log(sumResult);
-
-
