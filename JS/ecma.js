@@ -69,7 +69,7 @@ console.log(userDetails);
 //     return result;
 // }
 
-// Arrow function
+// ===================Arrow function=====================
 
 // const sum = (value1, value2) => {
 //     console.log(value1 +value2);
@@ -92,3 +92,6 @@ const sum = (valll1, valll2)=> valll1+ valll2;
 
 const sumResult = sum(4,5);
 console.log(sumResult);
+
+// function() {} // Anonymous function
+// ()=> {} //Anonymous arrow function
