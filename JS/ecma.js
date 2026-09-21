@@ -63,13 +63,19 @@ const userDetails = { ...user, ...details,};
  
 console.log(userDetails); 
 
-Arrow function
+function sum(value1 , value2){
+    const result = value1 + value2;
 
-const sum = (value1, value2) => {
-    console.log(value1 +value2);   
-};
+    return result;
+}
 
-sum(8,12);
-sum(12,6);
+// // Arrow function
+
+// const sum = (value1, value2) => {
+//     console.log(value1 +value2);   
+// };
+
+// sum(8,12);
+// sum(12,6);
 
 
