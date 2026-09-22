@@ -73,5 +73,9 @@ for(let i = 0; i< list.length; i++){
 console.log(evenList);
 
 const filterList  = list.filter((value, index) => value % 2 ==0);
-    console.log("=============Filter============");
-    console.log(filterList);
+console.log("=============FILTER============");
+console.log(filterList);
+
+const filteredlist = list.filter(value => value >= 100);
+
+console.log(filteredlist);
