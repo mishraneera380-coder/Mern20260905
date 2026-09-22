@@ -102,7 +102,6 @@ const students = [
         age: "20",
         faculty:"BITM",
     },
-
 ];
 
 /**Find: array.find()
@@ -110,5 +109,14 @@ const students = [
  * 
  */ 
 
-const foundResult = students.find((value)=> value.name == Samikshya)
+const foundResult = students.find((value)=> value.name == "Samikshya");
 console.log(foundResult);
+
+/***
+ *Include: array.include(a) => boolean
+ *Some: array.some(a) => boolean
+ *Every: array.some(a)=> boolean 
+*/ 
+
+ const includeResult  =list.includes(133);
+console.log(includeResult);
