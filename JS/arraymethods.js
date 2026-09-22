@@ -69,3 +69,11 @@ for(let i = 0; i< list.length; i++){
         evenList.push(list[i]);
     }
 }
+
+console.log(evenList);
+
+list.filter((value, index) => {
+    const isEven = list[i] % 2 ==0;
+
+    return isEven;  //boolean
+});
