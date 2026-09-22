@@ -137,3 +137,17 @@ console.log(list);
 
 students.sort((a,b) => b.age-a.age); //desc
 console.log(students);
+
+/***Reduce/
+ */
+
+let sum = 0;
+for(let i = 0; i< list.length; i++){
+    sum = sum +list[i];
+}
+
+console.log(sum);
+
+const sumResult = list.reduce((prev, current)=>prev +current, 0);
+
+console.log(sumResult);
