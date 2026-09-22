@@ -81,3 +81,34 @@ const filteredlist = list.filter(value => value >= 100);
 console.log(filteredlist);
 
 
+const students = [
+    {
+        name:"Samikshya",
+        age: "18",
+        faculty:"Bsc.CSIT",
+    },
+    {
+        name:"Sushil",
+        age: "19",
+        faculty:"BTechAI",
+    },
+    {
+        name:"Nirmala",
+        age: "18",
+        faculty:"BCA",
+    },
+    {
+        name:"Hemanta",
+        age: "20",
+        faculty:"BITM",
+    },
+
+];
+
+/**Find: array.find()
+ * [a,b,c,d]=> find(a)=>a
+ * 
+ */ 
+
+const foundResult = students.find((value)=> value.name == Samikshya)
+console.log(foundResult);
