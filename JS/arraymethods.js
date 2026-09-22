@@ -72,8 +72,6 @@ for(let i = 0; i< list.length; i++){
 
 console.log(evenList);
 
-list.filter((value, index) => {
-    const isEven = list[i] % 2 ==0;
-
-    return isEven;  //boolean
-});
+const filterList  = list.filter((value, index) => value % 2 ==0);
+    console.log("=============Filter============");
+    console.log(filterList);
