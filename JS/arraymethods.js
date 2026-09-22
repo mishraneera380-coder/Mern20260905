@@ -114,9 +114,15 @@ console.log(foundResult);
 
 /***
  *Include: array.include(a) => boolean
- *Some: array.some(a) => boolean
- *Every: array.some(a)=> boolean 
+ *Some: array.some(a) => boolean //if any one result is true the output will be true
+ *Every: array.some(a)=> boolean //if all the results are true then only the result will be true otherwise it will be false
 */ 
 
- const includeResult  =list.includes(133);
+ const includeResult  =list.includes(12);
 console.log(includeResult);
+
+const someResult = list.some((value) => value <= 100); //true
+const everyResult = list.every((value)=> value <= 10); // false
+
+console.log( "some:" ,someResult);
+console.log("every:"  ,everyResult);
