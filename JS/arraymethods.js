@@ -109,7 +109,7 @@ const students = [
  * 
  */ 
 
-const foundResult = students.find((value)=> value.name == "Samikshya");
+const foundResult = students.find((value)=> value.name == "Samikshya"); //first found result
 console.log(foundResult);
 
 /***
@@ -126,3 +126,14 @@ const everyResult = list.every((value)=> value <= 10); // false
 
 console.log( "some:" ,someResult);
 console.log("every:"  ,everyResult);
+
+/***Sort: array.sort(a,b)
+ * a-b => (ASC) Ascending Order
+ * b-a => (DESC) Descending Order
+ */ 
+
+list.sort((a,b) => a-b); //asc
+console.log(list);
+
+students.sort((a,b) => b.age-a.age); //desc
+console.log(students);
