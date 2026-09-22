@@ -3,37 +3,69 @@ const list = [
 ];
 
 /**Double all the numbers in the list*/ 
-// const dblList =[];
+const dblList =[];
 
-// for(let i=0; i< list.length; i++){
-//     const dblvalue = list[i] * 2;
+for(let i=0; i< list.length; i++){
+    const dblvalue = list[i] * 2;
 
-//     dblList.push(dblvalue);
-// }
+    dblList.push(dblvalue);
+}
 
-// console.log(dblList);
+console.log(dblList);
 
 
 
 // /**Double all the numbers in the list*/
 
-// const dblList = [];
-// for(let i = 0; i< list.length; i++){
-//     const dblvalue = list[i] *3;
+const dbllList = [];
+for(let i = 0; i< list.length; i++){
+    const dblvalue = list[i] *3;
 
-//     dblList.push(dblvalue);
-// }
+    dbllList.push(dblvalue);
+}
 
-// console.log(dblList);
+console.log(dblList);
 
-/***Map: array.map()*/
+// /***Map: array.map()*/
+// [a,b,c] => Map(y) => [x,y,z]
+// /
 
- const dblMapList = list.map( function(item, index){
+const dblMapList = list.map( function(item, index){
     const dblvalue = item *2;
 
-    return;
+    return dblvalue;
 });
 
 console.log('================MAP==============');
 console.log(dblMapList);
 
+(item, index) =>{
+    const dblvalue = item *2;
+    return dblvalue;
+}
+
+const dblMapLlist = list.map(function(value, index){
+    const dblvalue = value * 2;
+
+    return dblvalue;
+});
+
+console.log("============MAP===========");
+console.log(dblMapLlist);
+
+const dblMMapList = list.map((value, index) => value * 2);
+
+/***
+ * Filter: array.filter() => array
+ * [a,b,a,a,]=> fiter(a) =>[a,a,a]
+ */ 
+
+
+const evenList = [];
+for(let i = 0; i< list.length; i++){
+    const isEven = list[i] % 2==0;
+    
+    if(isEven){
+        evenList.push(list[i]);
+    }
+}
