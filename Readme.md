@@ -7,6 +7,9 @@
 - ECMA Script (ES6 2015) Standardization of JS
 - Node.JS, Electron.js, React Native, Tensorflow.js
 
+# Node.js
+
+
 # JS course content
 - Print
 - Variables
@@ -16,17 +19,23 @@
 - Loop(for, while)
 - Function
 - EcmaScript (Template literals, spread operator, destructuring, arrow function)
-------------------
 - Array methods(map, reduce, sort, filter, find)
-- DOM manipulation
 
------------------
--  JS
+
+## Node.Js course content
+- Node.js
+- Promises, callbacks, async/await
+- semantics
+- Express
+
+-------------------------------------
+## Learning Path
+1. JS
 
 Backend
--  Node
--  Express
--  MongoDB
+2.  Node
+3. Express
+4. MongoDB
 
 Frontend
 -  React
