@@ -19,7 +19,7 @@
 - Single threaded 
 - Non-blocking operation
 - Event driven
-
+ 
 
 # JS course content
 - Print
