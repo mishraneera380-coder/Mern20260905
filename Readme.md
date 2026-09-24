@@ -7,7 +7,18 @@
 - ECMA Script (ES6 2015) Standardization of JS
 - Node.JS, Electron.js, React Native, Tensorflow.js
 
-# Node.js
+# NodeJS
+- It is a JavaScript runtime.
+- Runtime: Program that runs another program.
+- RUns JS in local machine
+- Build on C++
+- Built on top of Google Chrome V8 engine
+- Used for: API, micro-services, real-time app, JSON based API
+
+## Architecture
+- Single threaded 
+- Non-blocking operation
+- Event driven
 
 
 # JS course content
@@ -33,7 +44,7 @@
 1. JS
 
 Backend
-2.  Node
+2. Node
 3. Express
 4. MongoDB
 
