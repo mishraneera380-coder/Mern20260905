@@ -1,4 +1,4 @@
 console.log("Hello World");
 
 const name = "samikshya";
-console.log()
+console.log(`hello ${name}`);
