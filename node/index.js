@@ -15,6 +15,6 @@ fs.readFile("text.txt", "utf-8", (error,data) =>{
 console.log("Hello World"); 
 
 const name  = "samikshya";  
-console.log(`hello ${name}`);    
+console.log(`hello ${name}`);     
   
 
