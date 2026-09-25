@@ -9,7 +9,7 @@ fs.readFile("text.txt", "uft-8", (error,data) =>{
 
 console.log("Hello World");
 
-const name = "samikshya";
+const name = "samikshya";  
 console.log(`hello ${name}`);    
   
 
