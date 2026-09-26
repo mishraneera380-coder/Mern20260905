@@ -34,7 +34,13 @@
 
 
 ## Node.Js course content
-- Node.js
+- NodeJS
+- CommonJS/ES modules
+- File System
+- HTTP
+- Event
+- Path
+- URL
 - Promises, callbacks, async/await
 - semantics
 - Express
