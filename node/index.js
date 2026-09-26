@@ -16,5 +16,8 @@ console.log("Hello World");
 
 const name  = "samikshya";  
 console.log(`hello ${name}`);     
+
+const number = 16;
+console.log(`The number is ${number}`);
   
 
