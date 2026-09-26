@@ -50,8 +50,9 @@
 1. JS
 
 Backend
-2. Node
-3. Express
+
+2. Node 
+3. Express 
 4. MongoDB
 
 Frontend
